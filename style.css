@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(158, 158, 158);
+}
+table {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: yellow;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    text-align: left;
+    font-family: cursive;
+}
+table tr td {
+    padding-left: 1rem;
+    padding-right: 1rem;    
+    padding-bottom: 15px;
+}
+table tr td li {
+    padding-bottom: 15px;
+    list-style: none;
+}
+.button {
+    width: 70px;
+    height: 30px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.order {
+    margin-left: 4rem;
+    width: 50px;
+}
+.orderTengah {
+    text-align: center;
+}

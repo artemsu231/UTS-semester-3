@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>UTS</title>
+</head>
+<body>
+    <table >
+        <tr>
+            <td colspan="2" class="orderTengah">
+                <h1>Restoran</h1>
+                <h3>M Misbachul Muhtar</h3>
+                <h3>20101005</h3><br>
+                <h1>Daftar Menu</h1><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Makanan<br></td>
+            <td style="text-align: right;">Jumlah<br></td> 
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="mieGoreng" id=""> Mie Goreng</td>
+            
+            <td><input type="text" name="mieGoreng" id="" class="order"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Capjay" id=""> Capjay</td>
+            
+            <td><input type="text" name="Capjay" id="" class="order"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="nasiGoreng" id=""> Nasi Goreng</td>
+            
+            <td><input type="text" name="nasiGoreng" id="" class="order"></td>
+        </tr>
+
+        <tr>
+            <td><br>Minuman<br></td>
+            <td style="text-align: right;"><br>Jumlah<br></td> 
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="juiceAlpukat" id=""> Juice Alpukat</td>
+            
+            <td><input type="text" name="juiceAlpukat" id="" class="order"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="juiceSemangka" id=""> Juice Semangka</td>
+            
+            <td><input type="text" name="juiceSemangka" id="" class="order"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="juiceBuahNaga" id=""> Juice Buah Naga</td>
+            
+            <td><input type="text" name="juiceBuahNaga" id="" class="order"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="esOyen" id=""> Es Oyen</td>
+            
+            <td><input type="text" name="esOyen" id="" class="order"></td>
+        </tr>
+
+        <tr>
+            <td rowspan="3"><br> Bayar</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><br>&nbsp;&nbsp;<input type="radio" name="tunai" id="">Tunai</td>
+        </tr>
+        <tr>
+            <td style="text-align: right;"><input type="radio" name="kartuKredit" id="">Kartu Kredit</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="orderTengah"><br><br>
+                <input type="button" value="Simpan" onclick="simpan()" class="button">
+                <input type="button" value="Batal" onclick="batal()" class="button">
+            </td>
+        </tr>
+    </table>
+    <script>
+        function simpan(form) {
+            alert ("Order Anda Telah Didaftarkan")
+        }
+        function batal(form) {
+            window.location.href = "M_Misbachul_M_login_20101005.html";
+        }
+    </script>
+</body>
+</html>
